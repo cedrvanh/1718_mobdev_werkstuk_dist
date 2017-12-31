@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.style-guide__body {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    background: #fbcacb;
+    background: -webkit-linear-gradient(left top, #fbcacb);
+    background: -o-linear-gradient(bottom right, #fbcacb);
+    background: -moz-linear-gradient(bottom right, #fbcacb);
+    background: linear-gradient(to bottom right, #fbcacb);
+  }
+  .style-guide__main-container {
+    font-family: 'roboto', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 1px 1px 5px rgba(252, 158, 206, 0.46);
+  }
+  .style-guide__header {
+    z-index: -9999;
+    width: 100%;
+    height: 500px;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 200px 100px;
+    border-bottom-right-radius: 200px 100px;
+    background: #fbcacb;
+    background: -webkit-linear-gradient(left top, #fbcacb, #fc9ece);
+    background: -o-linear-gradient(bottom right, #fbcacb, #fc9ece);
+    background: -moz-linear-gradient(bottom right, #fbcacb, #fc9ece);
+    background: linear-gradient(to bottom right, #fbcacb, #fc9ece);
+  }
+  .style-guide__secondary-container {
+    position: relative;
+    z-index: 1;
+    top: -400px;
+    max-width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 1px 1px 5px rgba(252, 158, 206, 0.46);
+    overflow: hidden;
+  }
+  .style-guide__secondary-container .style-guide__main-title {
+    color: #fc9ece;
+    padding-top: 20px;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul li {
+    list-style: none !important;
+    margin: 10px;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul .function {
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul .sep {
+    margin-top: 40px;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul .active {
+    box-shadow: 1px 1px 5px 2px #fbcacb;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul .menu {
+    background: #fc9ece;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul .social {
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul a {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul a:hover > .menu-item {
+    left: 40px;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul li img {
+    width: 15px;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul .first {
+    top: 30px;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul .rest {
+    top: 0;
+  }
+  .style-guide__secondary-container .style-guide__menu-component ul .menu-item {
+    position: absolute;
+    margin-left: 10px;
+    left: -200px;
+    transition: 0.5s ease;
+    color: #fc9ece;
+  }
+  .style-guide__secondary-container .style-guide__input-component form input {
+    width: 80%;
+    padding: 15px 10px;
+    margin: 10px auto;
+    display: block;
+    color: #c5c5c5;
+    border: none;
+    box-shadow: 0 0 2px #fc9ece;
+  }
+  .style-guide__secondary-container .style-guide__input-component .account-radio {
+    display: none;
+  }
+  .style-guide__secondary-container .style-guide__input-component label {
+    display: block;
+    width: 40%;
+    float: left;
+    padding: 10px;
+    color: #c5c5c5;
+    box-shadow: 0 0 2px #fc9ece;
+    font-size: 12px;
+  }
+  .style-guide__secondary-container .style-guide__input-component label:hover {
+    cursor: pointer;
+  }
+  .style-guide__secondary-container .style-guide__input-component input:checked + label {
+    background: #fc9ece;
+    color: #fff;
+  }
+  .style-guide__secondary-container .style-guide__button-component input {
+    border: 1px solid transparent;
+    color: #fff;
+    text-align: center;
+    padding: 8px 25px;
+    margin: 10px;
+    width: 40%;
+    border-radius: 15px 20px;
+    background: #fbcacb;
+    background: -webkit-linear-gradient(#fbcacb, #fc9ece);
+    background: -o-linear-gradient(#fbcacb, #fc9ece);
+    background: -moz-linear-gradient(#fbcacb, #fc9ece);
+    background: linear-gradient(#fbcacb, #fc9ece);
+  }
+  .style-guide__secondary-container .style-guide__button-component input:hover {
+    cursor: pointer;
+  }
+  .style-guide__secondary-container .style-guide__icon-component img {
+    width: 15px;
+    margin: 15px;
+  }
+  .style-guide__secondary-container .style-guide__color-component .color {
+    width: 100px;
+    height: 60px;
+    box-shadow: 0 0 2px #fc9ece;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    margin: 5px;
+    float: left;
+  }
+  .style-guide__secondary-container .style-guide__color-component .gradient {
+    color: #fff;
+    background: #fbcacb;
+    background: -webkit-linear-gradient(#fbcacb, #fc9ece);
+    background: -o-linear-gradient(#fbcacb, #fc9ece);
+    background: -moz-linear-gradient(#fbcacb, #fc9ece);
+    background: linear-gradient(#fbcacb, #fc9ece);
+  }
+  .style-guide__secondary-container .style-guide__color-component .gradient2 {
+    color: #fff;
+    background: #fbcacb;
+    background: -webkit-linear-gradient(left top, #fbcacb, #fc9ece);
+    background: -o-linear-gradient(bottom right, #fbcacb, #fc9ece);
+    background: -moz-linear-gradient(bottom right, #fbcacb, #fc9ece);
+    background: linear-gradient(to bottom right, #fbcacb, #fc9ece);
+  }
+  .style-guide__secondary-container .style-guide__color-component .pink {
+    color: #fff;
+    background: #fc9ece;
+  }
+  .style-guide__secondary-container .style-guide__color-component .shadow {
+    color: #fff;
+    background: rgba(252, 158, 206, 0.46);
+  }
+  .style-guide__secondary-container .style-guide__color-component .grey {
+    color: #fff;
+    background: #c5c5c5;
+  }
+  
